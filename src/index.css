@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  margin: 63px 70px;
+
+  max-width: 720px;
+}
+
+.website-header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #141413;
+  height: 108px;
+}
+
+.website-header > img {
+  width: 80px;
+}
