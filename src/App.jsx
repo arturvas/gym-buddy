@@ -10,12 +10,6 @@ function App() {
       <div className="container">
         <Main />
       </div>
-
-      {/*
-      <MuscleList />
-      <ReadyForRecipe />
-      <SuggestedRecipe /> */}
-      
     </>
   )
 }
