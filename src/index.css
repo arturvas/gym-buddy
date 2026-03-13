@@ -5,23 +5,62 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #FAFAF8;
 }
 
 .container {
-  margin: 63px 70px;
-
+  margin: auto;
   max-width: 720px;
 }
 
-.website-header {
-  background-color: #fff;
+header {
+  background-color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 11px;
   color: #141413;
   height: 108px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 
-.website-header > img {
-  width: 80px;
+header > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+main {
+  padding: 70px 63px;
+}
+
+.add-muscle-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+
+.add-muscle-form > input {
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  padding: 9px 13px;
+  box-sizing: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.add-muscle-form > button {
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #141413;
+  color: #FAFAF8;
+  width: 180px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }

@@ -1,16 +1,16 @@
 import Header from "./components/Header"
+import Main from "./components/Main"
 
 function App() {
 
   return (
     <>
       <Header />
-      <main className="container">
-        {/* <SearchBar />
-        <IngredientsList />
-        <ReadyForRecipe />
-        <SuggestedRecipe /> */}
-      </main>
+      <Main />
+      {/* <IngredientsList />
+      <ReadyForRecipe />
+      <SuggestedRecipe /> */}
+      
     </>
   )
 }
