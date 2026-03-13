@@ -11,6 +11,7 @@ body {
 .container {
   margin: auto;
   max-width: 720px;
+  padding: 70px 63px;
 }
 
 header {
@@ -29,9 +30,9 @@ header > h1 {
   font-weight: 400;
 }
 
-main {
+/* main {
   padding: 70px 63px;
-}
+} */
 
 .add-muscle-form {
   display: flex;
@@ -63,4 +64,55 @@ main {
   align-items: center;
   justify-content: center;
   gap: 5px;
+}
+
+.training-wish-list > h2 {
+  margin-top: 48px;
+  margin-bottom: 10px;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.training-wish-list > ul {
+  padding-left: 20px;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+.training-wish-list > ul > li {
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #475467;
+  line-height: 2.2;
+}
+
+.get-training-sheet {
+  background-color: #F0EFEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 42px;
+  border-radius: 12px;
+  /* gap: 20px; */
+}
+
+.get-training-sheet > div > h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.get-training-sheet > div > p {
+  font-size: 0.85rem;
+  color: #6B7280;
+  margin: 8px 0 0 0;
+}
+
+.get-training-sheet > button {
+  color: #FAFAF8;
+  background-color: #D17557;
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 24px;
 }

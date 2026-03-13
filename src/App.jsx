@@ -1,13 +1,18 @@
 import Header from "./components/Header"
 import Main from "./components/Main"
+import MuscleList from "./components/MuscleList"
 
 function App() {
 
   return (
     <>
       <Header />
-      <Main />
-      {/* <IngredientsList />
+      <div className="container">
+        <Main />
+      </div>
+
+      {/*
+      <MuscleList />
       <ReadyForRecipe />
       <SuggestedRecipe /> */}
       
