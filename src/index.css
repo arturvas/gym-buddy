@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #FAFAF8;
+  background-color: #fafaf8;
 }
 
 .container {
@@ -22,7 +22,9 @@ header {
   gap: 11px;
   color: #141413;
   height: 108px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 header > h1 {
@@ -43,9 +45,9 @@ header > h1 {
 
 .add-muscle-form > input {
   border-radius: 6px;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #d1d5db;
   padding: 9px 13px;
-  box-sizing: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  /*box-sizing: 0 1px 2px 0 rgba(0, 0, 0, 0.05);*/
   flex-grow: 1;
   min-width: 150px;
   max-width: 400px;
@@ -56,7 +58,7 @@ header > h1 {
   border-radius: 6px;
   border: none;
   background-color: #141413;
-  color: #FAFAF8;
+  color: #fafaf8;
   width: 180px;
   font-size: 0.875rem;
   font-weight: 500;
@@ -87,7 +89,7 @@ header > h1 {
 }
 
 .get-training-sheet {
-  background-color: #F0EFEB;
+  background-color: #f0efeb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,13 +106,13 @@ header > h1 {
 
 .get-training-sheet > div > p {
   font-size: 0.85rem;
-  color: #6B7280;
+  color: #6b7280;
   margin: 8px 0 0 0;
 }
 
 .get-training-sheet > button {
-  color: #FAFAF8;
-  background-color: #D17557;
+  color: #fafaf8;
+  background-color: #d17557;
   font-family: Inter, sans-serif;
   border-radius: 6px;
   border: none;

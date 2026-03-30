@@ -1,9 +1,8 @@
-import Header from "./components/Header"
-import Main from "./components/Main"
-import MuscleList from "./components/MuscleList"
+import Header from './components/Header';
+import Main from './components/Main';
+import MuscleList from './components/MuscleList';
 
 function App() {
-
   return (
     <>
       <Header />
@@ -11,7 +10,7 @@ function App() {
         <Main />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
