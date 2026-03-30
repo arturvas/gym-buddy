@@ -2,7 +2,7 @@ import React from 'react';
 import { ListPlus } from 'lucide-react';
 
 export default function Main() {
-  const muscles = ['leg', 'shoulder', 'trapeze'];
+  const [muscles, setMuscle] = React.useState([]);
 
   const musclesList = muscles.map((muscle) => {
     return <li key={muscle}>{muscle}</li>;
@@ -12,8 +12,7 @@ export default function Main() {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const newMuscle = formData.get('muscle');
-    muscles.push(newMuscle);
-    console.log(muscles);
+    setMuscle(prevState => [...prevState, newMuscle])
   }
 
   return (
